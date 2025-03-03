@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    
+    <h1><center>Simple html form</center></h1>
+
+    <form action="second page" method="post"></form>
+    <Label for="text">username</Label>
+    <input type="text" id="text" name="text" placeholder="Enter here" required>
+    <br> <br>
+
+    <Label for="password">password</Label>
+    <input type="password" id="password" name="password" required>
+    <br> <br>
+
+    <Label for="text">email</Label>
+    <input type="email" id="email" name="email" placeholder="example@domain.com">
+    <br> <br>
+
+    <label for="phone number" >enter phone number</label>
+    <input type="tel" placeholder="phone number"></input>
+    <br> <br>
+
+    <Label for="number">number</Label>
+    <input type="number" id="number" name="number" min="1" max="10" required>
+    <br> <br>
+
+    <Label for="date">Date:</Label>
+    <input type="date" id="date" name="date" required>
+    <br> <br>
+
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="Female">Female</label>
+    <br> <br>
+
+    <label for="subscribe">subscribe to my channel</label>
+    <input type="checkbox" id="channel" name="subscribe">
+    <br> <br>
+
+    <label for="company">Choose a Company</label>
+    <select id="company" name="company">
+        <option value="tcs">TCS</option>
+        <option value="tss">TSS</option>
+        <option value="infosys">Infosys</option>
+        </select>
+        <br> <br>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" cols="50" placeholder="write your msg here"></textarea>
+    <br> <br>
+    
+    <label for="budget">Budget</label>
+    <input type="range">
+    <br> <br>
+
+    <label for="file">file</label>
+    <input type="file" id="file" name="file" accept=".jpg">
+     <br> <br>
+    
+    <input type="submit" name="submitbutton">
+    <br> <br>
+
+
+    <table border="2px">
+        <tr>
+            <th rowspan="2">rowspan example</th>
+            <th colspan="2 ">column example</th>
+
+        </tr>
+
+        <tr>
+            <td> column1</td>
+            <td> column2</td>
+
+        </tr>
+
+        <tr>
+            <td> data1</td>
+            <td>data2</td>
+           
+        </tr>
+
+        <tr>
+            <td> data4</td>
+            <td>data5</td>
+
+        </tr>
+    </table>
+
+   <form action="https://api.web3forms.com/submit" method="POST">
+
+    
+    <input type="hidden" name="access_key" value="2e2e2eec-cdce-423f-abac-4c9a749fa557">
+    <br><br>
+
+    <input type="text" name="name" required>
+    <br><br>
+    <input type="email" name="email" required>
+    <br><br>
+    <textarea name="message" required></textarea>
+    <br><br>
+
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+     <button type="submit">Submit Form</button>
+    <br><br>
+
+</form>
+
+    
+
+
+</body>
+</html>
